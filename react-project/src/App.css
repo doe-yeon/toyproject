@@ -1,0 +1,17 @@
+li ,button{
+    cursor:pointer; 
+}
+
+*, ul, li{
+    margin:0;
+    padding:0;
+    white-space: nowrap;
+    font-family: 'Pretendard-Regular';
+    list-style:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    color:#37373a;
+}

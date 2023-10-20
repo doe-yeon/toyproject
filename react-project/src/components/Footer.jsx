@@ -49,12 +49,14 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className={styles.footerNavItem}>
-                        <strong>
-                            <a>글꼴</a>
-                        </strong>
-                        <strong>
-                            <a>음악</a>
-                        </strong>
+                        <ul>
+                            <strong>
+                                <a>글꼴</a>
+                            </strong>
+                            <strong>
+                                <a>음악</a>
+                            </strong>
+                        </ul>
                     </div>
                     <div className={styles.footerNavItem}>
                         <ul>
@@ -67,10 +69,22 @@ const Footer = () => {
                         </ul>
                     </div>
                 </nav>
-                <div><button type='button'><span>관련사이트</span></button></div>
-                <div className={styles.footerAddress}>
-                    <h2>(주)우아한형제들</h2>
-                    <p><span>사업자 등록번호 : 120-87-65763</span><span>대표 : 이국환</span><span>주소 : 서울시 송파구 위례성대로 2 (방이동, 장은빌딩)</span></p>
+                <div className={styles.footerNav2}>
+                    <div className={styles.selectSite}>
+                        <button type='button' class='label'><span>관련 사이트</span></button>
+                        {/* <ul>
+                        <li>우유안부</li>
+                        <li>기술 블로그</li>
+                        <li>주간 베짱이</li>
+                        <li>delivery Hero</li>
+                        <li>우아한 청년들</li>
+                        <li>우아한 라이더 살핌기금</li>
+                    </ul> */}
+                    </div>
+                    <div className={styles.footerAddress}>
+                        <h2>(주)우아한형제들</h2>
+                        <p><span>사업자 등록번호 : 120-87-65763</span><span>대표 : 이국환</span><span>주소 : 서울시 송파구 위례성대로 2 (방이동, 장은빌딩)</span></p>
+                    </div>
                 </div>
             </div>
         </div >

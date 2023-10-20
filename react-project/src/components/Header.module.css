@@ -50,7 +50,7 @@ ul{
 
 }
 @media screen and (max-width:981px){
-    .navbar, .nav{
+    .navbar, .nav, .navlang{
         display:none;
     }
 }

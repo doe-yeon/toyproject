@@ -1,0 +1,48 @@
+.banner{
+    width:100vw;
+  }
+  
+  .banner1>video{
+    width:100vw;
+    position:absolute;
+    overflow: hidden;
+  }
+  
+  @keyframes typographics {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+  }
+  
+  .banner1text{
+    font-size: 80px;
+    left:30%;
+    top:40%;
+    font-weight: 900;
+    color:white;
+    font-family: 'BMHANNAAir';
+    position:absolute;
+    text-align: center;
+    animation: typographics 7s infinite;
+  }
+  
+  
+  .banner2>video{
+    width:100vw;
+    overflow: hidden;
+  }
+  
+  .banner3{
+    background-image: url('https://i.namu.wiki/i/IBJCnRAbMIb9N59CypbVXSPiXofF9Xphw_X11xLSLegEN4SPouXVOVADPICytKzjBz3NTM_iSGr7w0HQgLjOoDy65vJaOZZNLxLHtzxwUuqZ9BYhICgBfGn6HHIDdIHDZJKHr7pAdCDDfImPmccl0A.webp');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:90vh;
+  }
+  
+  
+  .banner4{
+    background-image: url('https://lh3.googleusercontent.com/p/AF1QipPGl6MqUOpA-oR3QcdGBgaWh67smtnDY1s05ps4=s1360-w1360-h1020');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:90vh;
+  }
